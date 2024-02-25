@@ -13,6 +13,7 @@
 		80E6E9272B8BEF87008C7CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E6E9252B8BEF87008C7CC9 /* Main.storyboard */; };
 		80E6E9292B8BEF94008C7CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E6E9282B8BEF94008C7CC9 /* Assets.xcassets */; };
 		80E6E92C2B8BEF94008C7CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E6E92A2B8BEF94008C7CC9 /* LaunchScreen.storyboard */; };
+		80E6E9382B8BF1CC008C7CC9 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E6E9372B8BF1CC008C7CC9 /* Crypto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		80E6E9282B8BEF94008C7CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80E6E92B2B8BEF94008C7CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80E6E92D2B8BEF94008C7CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E6E9372B8BF1CC008C7CC9 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		80E6E91E2B8BEF87008C7CC9 /* Crypto_MVC */ = {
 			isa = PBXGroup;
 			children = (
+				80E6E9332B8BF097008C7CC9 /* Models */,
+				80E6E9342B8BF0E3008C7CC9 /* Views */,
+				80E6E9352B8BF0EB008C7CC9 /* Controllers */,
 				80E6E91F2B8BEF87008C7CC9 /* AppDelegate.swift */,
 				80E6E9212B8BEF87008C7CC9 /* SceneDelegate.swift */,
-				80E6E9232B8BEF87008C7CC9 /* ViewController.swift */,
-				80E6E9252B8BEF87008C7CC9 /* Main.storyboard */,
 				80E6E9282B8BEF94008C7CC9 /* Assets.xcassets */,
-				80E6E92A2B8BEF94008C7CC9 /* LaunchScreen.storyboard */,
 				80E6E92D2B8BEF94008C7CC9 /* Info.plist */,
 			);
 			path = Crypto_MVC;
+			sourceTree = "<group>";
+		};
+		80E6E9332B8BF097008C7CC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80E6E9372B8BF1CC008C7CC9 /* Crypto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80E6E9342B8BF0E3008C7CC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80E6E9362B8BF125008C7CC9 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80E6E9352B8BF0EB008C7CC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80E6E9232B8BEF87008C7CC9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		80E6E9362B8BF125008C7CC9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				80E6E9252B8BEF87008C7CC9 /* Main.storyboard */,
+				80E6E92A2B8BEF94008C7CC9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E6E9382B8BF1CC008C7CC9 /* Crypto.swift in Sources */,
 				80E6E9242B8BEF87008C7CC9 /* ViewController.swift in Sources */,
 				80E6E9202B8BEF87008C7CC9 /* AppDelegate.swift in Sources */,
 				80E6E9222B8BEF87008C7CC9 /* SceneDelegate.swift in Sources */,
